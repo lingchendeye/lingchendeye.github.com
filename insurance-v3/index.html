@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">	
+    <title>百万身价|中国人保</title>
+</head>
+
+<body>
+	<!-- 轮播 -->
+		<div id='swipe-container' class='swipe'>
+			<div class='swipe-wrap'>
+				<div class="swipe-innerBox">
+					<a class="figure fixedratio js-photo-touched" id="swipe0">
+						<img src="images/icon-banner1.png">
+					</a>
+				</div>
+				<div class="swipe-innerBox">
+					<a class="figure fixedratio js-photo-touched" id="swipe1">
+						<img src="images/icon-banner2.png">
+					</a>
+				</div>
+				<div class="swipe-innerBox">
+					<a class="figure fixedratio js-photo-touched" id="swipe2">
+						<img src="images/icon-banner3.png">
+					</a>
+				</div>
+			</div>
+			<div class="ull">
+				<ul id="position">
+					<li class="cur"></li>
+					<li class=""></li>
+					<li class=""></li>
+				</ul>
+			</div>
+		</div>
+	<!-- 轮播end -->
+	<!-- 保单-->
+	<div class="info">
+		<!-- 特色 -->
+		<div class="info-feature">
+			<p>
+				<span class="left-text">特色：</span>18-50周岁、缴费5年、保障30年、期满返还			
+			</p>
+			<span class="right-arrow"></span>			
+		</div>
+		<ul>			
+			<!-- 姓名 -->
+			<li class="js-add-del">
+				<span class="block-left">
+					<label>姓　　名</label>
+				</span>
+				<input type="text" class="customer-input" maxlength="10" placeholder="仅限本人购买"/>
+				<span class="js-del customer-del"></span>
+			</li>
+			<!-- 身份证号 -->
+			<li class="js-add-del">
+				<span class="block-left">
+					<label>身份证号</label>
+				</span>
+				<input type="text" class="customer-input" maxlength="18" placeholder="请输入身份证号"/>
+				<span class="js-del customer-del"></span>
+			</li>
+			<!-- 手机号 -->
+			<li class="js-add-del">
+				<span class="block-left">
+					<label>手&nbsp;&nbsp;机&nbsp;&nbsp;号</label>
+				</span>
+				<input type="text" class="customer-input js-tel" style="width: 29%;" maxlength="11" placeholder="请输入手机号码"/>
+				<span class="js-del customer-del" style="right:46%"></span>
+				<!--校验码-->
+				<div class="identify js-identify">
+					<input type="text" class="identify-input" placeholder="短信验证码"/>
+					<span class="js-del customer-del" style="right:40%"></span>
+					<button class="identify-btn">获取验证码</button>
+				</div>
+			</li>
+			<!-- 电子邮箱 -->
+			<li class="js-add-del">
+				<span class="block-left">
+					<label>电子邮箱</label>
+				</span>
+				<input type="text" class="customer-input" placeholder="发送接收电子保单"/>
+				<span class="js-del customer-del"></span>
+			</li>
+			<!-- 地址 -->
+			<li class="js-add-del">
+				<span class="block-left">
+					<label>地　　址</label>
+				</span>
+				<input type="text" class="customer-input" placeholder="邮寄纸质保单合同"/>
+				<span class="js-del customer-del"></span>
+			</li>
+			<!-- 产品条款及协议 -->
+			<li style="border:0">
+				<div class="detail-items">
+					<span class="left-text">详细产品条款及协议</span>
+					<span class="right-text">我已同意</span>
+					<span class="right-check"></span>
+				</div>				
+			</li>
+		</ul>
+	</div>
+	<!-- 保单end -->
+	<!-- 投保按钮 -->
+	<button class="bottom-btn">
+		<span class="left-text">支付</span>
+		<span class="middle-text">￥3722</span>
+		<span class="right-text">/年</span>
+	</button>
+	<!-- 投保按钮end -->	
+    <script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/swipe.js"></script>
+    <script type="text/javascript" src="js/myjquery.js"></script>
+</body>
+</html>
